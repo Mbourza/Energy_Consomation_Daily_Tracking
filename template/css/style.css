@@ -1,0 +1,444 @@
+/* the main style */
+
+/*--------------------------------*/
+/*Style everthing */
+/*--------------------------------*/
+*{
+
+   margin:0;padding:0;
+    list-style: none;
+    text-decoration: none;
+
+}
+/*--------------------------------*/
+/* Style The body */
+/*--------------------------------*/
+body{
+    
+    font-size:100%;
+}
+/*--------------------------------*/
+/* Style The Main Header */
+/*--------------------------------*/
+#mainHeader{
+    
+    width:100%;
+    height:4em;
+    background: #292929;
+}
+/*--------------------------------*/
+/* Style The Logo */
+/*--------------------------------*/
+#logo{
+    
+    width: 20%;
+    height:3em;
+    float: left;
+}
+#logo >a >img {
+
+    width:90%;
+    height: 3.6em;
+    margin: .2em;
+}
+/*--------------------------------*/
+/* Style The liste */
+/*--------------------------------*/
+
+#mainHeader > ul {
+    
+     float:right;
+    color:white;
+}
+#mainHeader > ul > li{
+    
+    margin: 1em 1em 0 0;
+    cursor: pointer;
+}
+#mainHeader > ul > li > ul{
+    
+    display: none;
+    padding: .4em;
+    background: white;
+    padding: 1em;
+    
+}
+#mainHeader > ul > li > ul > li{
+    
+    display: block;
+    margin: .4em;
+    
+}
+/*--------------------------------*/
+/* Style The warpp */
+/*--------------------------------*/
+#warpp {
+
+    width:100%;
+    margin:0 auto 1em;   
+}
+/*--------------------------------*/
+/* Style The content */
+/*--------------------------------*/
+#content {
+
+    width: 75%;
+    margin:1em;
+    float: right;
+}
+/*--------------------------------*/
+.btn-choix {
+    
+    width:28%;
+    height: 10em;
+    margin:.5em;
+    border:1px solid black;
+    border-radius: 6px;
+    float:left;
+}
+.btn-choix > img {
+
+    width:100%;
+    height:100%;
+}
+.btn-choix > a {
+    
+    width: 20%;
+    padding: .4em .4em;
+    background: #262626;
+    opacity: .8;
+    position: absolute;
+    margin: -3em 0;
+    color:white;
+}
+/*---------------------------------------*/
+/*style the form id = addEtud */
+/*---------------------------------------*/
+#addEtud{
+
+    width:80%;
+    margin: 5em auto 0;
+    text-align: center;
+}
+/*---------------------------------------*/
+/*styling the name input field */
+/*---------------------------------------*/
+#numInput{
+
+    width:60%;
+    height:2em;
+    background :none;
+    border:none;
+    margin:.8em 0;
+    border-bottom: 1px solid #212121;
+    font-size: 1em;
+    font-family:'Indie Flower', cursive;
+    text-indent: .4em;
+}
+/*---------------------------------------*/
+/* Styling The last name Input field */
+/*---------------------------------------*/
+#lnumInput{
+
+    width:60%;
+    height:2em;
+    background :none;
+    border:none;
+    margin:.8em 0;
+    border-bottom: 1px solid #212121;
+    font-size: 1em;
+    font-family:'Indie Flower', cursive;
+    text-indent: .4em;
+}
+/*---------------------------------------*/
+/* Styling The email Input field */
+/*---------------------------------------*/
+#eInput{
+
+    width:60%;
+    height:2em;
+    background :none;
+    border:none;
+    margin:.8em 0;
+    border-bottom: 1px solid #212121;
+    font-size:1em;
+    font-family:'Indie Flower', cursive;
+    text-indent: .4em;
+}
+/*---------------------------------------*/
+/* Styling The code etudiant Input field */
+/*---------------------------------------*/
+#coInput{
+
+    width:60%;
+    height:2em;
+    background :none;
+    border:none;
+    margin:.8em 0;
+    border-bottom: 1px solid #212121;
+    font-size: 1em;
+    font-family:'Indie Flower', cursive;
+    text-indent: .4em;
+}
+/*-------------------------------------------*/
+/* Styling The date de Naissance Input field */
+/*-------------------------------------------*/
+#dnInput{
+
+    width:60%;
+    height:2em;
+    background :none;
+    border:none;
+    margin:.8em 0;
+    border-bottom: 1px solid #212121;
+    font-size: 1em;
+    font-family:'Indie Flower', cursive;
+    text-indent: .4em;
+}
+/*---------------------------------------*/
+/* Styling The file upload Input field */
+/*---------------------------------------*/
+#fInput::-webkit-file-upload-button {
+
+    visibility: hidden;
+    background-color: none;
+}
+#fInput::before {
+    
+    width:35%;
+    height:2em;
+    line-height: 2em;
+    margin-left: -2em;
+    float: left;
+    padding: 0 1em;
+    content: 'Chose an img';
+    display: inline-block;
+    background: white;
+    color: #262626;
+    border:1px solid #212121;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*---------------------------------------*/
+/*Styling the Add Etudiant submit button */
+/*---------------------------------------*/
+#sub-btn{
+
+    width:30%;
+    height:2.5em;
+    color:white;
+    border:none;
+    border-radius: 4px;
+    margin: 1.5em 0 0;
+    background-color: #212121;
+}
+/*---------------------------------------*/
+#sub-btn:hover{
+
+    background-color: #C2185B;
+    cursor: pointer;
+}
+/*---------------------------------------*/
+/*---------------------------------------*/
+/* styling the slect button */
+/*---------------------------------------*/
+#slInput{
+
+    width:30%;
+    height:2em;
+    margin: .8em 0;
+    background: white;
+    border:1px solid #212121;
+    border-radius: 5px;
+}
+/*--------------------------------*/
+/* Style The side bar */
+/*--------------------------------*/
+#sidebar{
+    
+    width:18.3%;
+    height:100%;
+    min-height: 100%;
+    background: #363636;
+    float:left;
+    padding: 5em 0 0;
+    overflow: hidden
+
+}
+/*--------------------------------*/
+#sidebar > ul {
+    margin-top: 30px;
+    width:100%;
+    margin-bottom:30px
+}
+/*--------------------------------*/
+#sidebar > ul > li {
+    
+    display: block;
+    margin: 1em;
+    padding:5px 0;
+}
+#sidebar > ul > li:hover{
+    padding-left:20px;
+    border-left:2px solid #aaa;
+    background:#777;
+    cursor: pointer
+    
+}
+/*--------------------------------*/
+#sidebar > ul > li > a {
+    
+    color:#ccc;
+    padding-right:2em;
+}
+/*--------------------------------*/
+/* Style The val div*/
+/*--------------------------------*/ 
+#val{
+    width:25%;
+    float:left;
+    border:1px solid #eee;
+    padding:3px;
+    box-shadow:0 1px 6px #eee;
+    border-radius:6px;
+    margin:8px 0;
+    margin-left:8px;
+
+    
+}
+#val2{
+    width:25%;
+    float:left;
+    border:1px solid #eee;
+    padding:3px;
+    box-shadow:0 1px 6px #eee;
+    border-radius:6px;
+    margin:8px 0;
+    margin-left:8px;
+
+    
+}
+#val3{
+    width:25%;
+    float:left;
+    border:1px solid #eee;
+    padding:3px;
+    box-shadow:0 1px 6px #eee;
+    border-radius:6px;
+    margin:8px 0;
+    margin-left:8px;
+
+    
+}
+
+/*---------------------------------------*/
+/* Styling The logInfo div */
+/*---------------------------------------*/
+#logInfo{
+
+    width:80%;
+    margin:8em auto 16.3em;
+    text-align: center;
+}
+/*---------------------------------------*/
+/* Styling The user Input user name */
+/*---------------------------------------*/
+#nInput{
+
+    width:40%;
+    height:2em;
+    background :none;
+    border:none;
+    margin:.5em 0;
+    border-bottom: 1px solid #212121;
+    font-size: .8em;
+    font-family:'Indie Flower', cursive;
+    text-indent: .4em;
+}
+/*---------------------------------------*/
+/* Styling The user Input user code */
+/*---------------------------------------*/
+#pInput{
+
+    width:40%;
+    height:2em;
+    background :none;
+    border:none;
+    margin:.5em 0;
+    border-bottom: 1px solid #212121;
+    font-size: .8em;
+    font-family:'Indie Flower', cursive;
+    text-indent: .4em;
+}
+/*---------------------------------------*/
+/* Styling The login button */
+/*---------------------------------------*/
+#ulog-btn{
+
+    width:30%;
+    height:2.5em;
+    color:white;
+    border:none;
+    border-radius: 4px;
+    margin: 1.5em 0 0;
+    background-color: #212121;
+}
+/*---------------------------------------*/
+#ulog-btn:hover{
+
+    background-color: #C2185B;
+    cursor: pointer;
+}
+/*---------------------------------------*/
+/* Styling The Help panel div */
+/*---------------------------------------*/
+#helpanel{
+
+    width:40%;
+    margin: 1em auto;
+    font-size: .7em;
+}
+/*---------------------------------------*/
+#helpanel > a{
+
+    color: #292929;
+    font-family: cursive;
+    font-style: italic;
+    margin:0 .4em;
+}
+/*---------------------------------------*/
+#helpanel > a:hover{
+
+    text-decoration: underline;
+}
+/*--------------------------------*/
+/* Style The footer */
+/*--------------------------------*/ 
+
+#footer{
+    
+    width:100%;
+    height:3em;
+    clear:both;
+    background: #262626;
+    text-align: center;
+    line-height: 2em;
+    color: #ccc;
+    bottom:0;
+    left:0;
+    
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
